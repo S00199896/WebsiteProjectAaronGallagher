@@ -1,0 +1,65 @@
+header
+{
+    background-image: url(../Images/a-brown-wall-3418x2279_63441.jpg);
+    background-repeat: no-repeat; /* stops image from repeating and having multiple images in a tiles*/
+    background-size:cover;
+    height: 300px;
+    color: navajowhite;
+    border: 1px solid brown;
+}
+
+body
+{
+    background-color: bisque;
+}
+
+nav
+{
+    padding: 150px /* padding adds space around things */
+}
+nav ul
+{
+    text-align: center;
+    font-size: 2em;
+}
+nav ul li
+{
+    list-style-type: none;
+     /* #B2B2B2 is the color grey */
+    display: inline; /* inline sets it to be a horizontal display */
+    padding: 100px;
+    margin: 100px;
+    border: 4px solid #109553;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+nav ul li a
+{
+    color: #109553;
+    text-decoration: none;
+}
+
+.title
+{ 
+    margin-bottom: 10px;
+    text-align:center; 
+    width: 300px; 
+    color:brown; 
+    border: solid black 2px; 
+} 
+  
+ input[type="button"] 
+{ 
+    padding: 10px;
+    background-color:brown; 
+    color: black; 
+    border: solid black 2px; 
+    width: 200px;
+} 
+  
+input[type="text"] 
+{ 
+    background-color:white; 
+    border: solid black 2px; 
+    width: 500px; 
+} 

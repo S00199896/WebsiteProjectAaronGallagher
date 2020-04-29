@@ -1,0 +1,154 @@
+header
+{
+    background-image: url(../Images/a-brown-wall-3418x2279_63441.jpg);
+    background-repeat: no-repeat; /* stops image from repeating and having multiple images in a tiles*/
+    background-size:cover;
+    height: 300px;
+    color: navajowhite;
+    border: 1px solid brown;
+}
+
+body
+{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background-color: saddlebrown;
+    padding: 10px /* padding adds space around things */
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color:  burlywood; 
+    display: inline; /* inline sets it to be a horizontal display */
+    padding: 15px;
+    margin: 110px;
+    border: 2px solid Tomato;
+    border-radius: 50px;
+}
+nav ul li:hover
+{
+    background-color: sandybrown;
+}
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#toolsToGetStarted
+{
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+    width: 50%;
+}
+
+
+#tools
+{
+    width: 50%;
+    margin: auto;
+}
+
+#tutorial
+{
+    text-align: center;
+    
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0.6px;
+  float: left;
+  width: 50%;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title
+{ 
+    margin-bottom: 10px;
+    text-align:center; 
+    width: 300px; 
+    color:brown; 
+    border: solid black 2px; 
+} 
+  
+ input[type="button"] 
+{ 
+    padding: 10px;
+    background-color:brown; 
+    color: black; 
+    border: solid black 2px; 
+    width: 200px;
+} 
+  
+input[type="text"] 
+{ 
+    background-color:white; 
+    border: solid black 2px; 
+    width: 500px; 
+} 
+
+footer
+{
+    clear: both;
+    border: 1px solid brown;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: saddlebrown;
+    display: inline-block;
+    text-align: center;
+}
